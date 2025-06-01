@@ -64,7 +64,7 @@ Dashboard bisnis ini dirancang untuk memberikan analisis mendalam mengenai tingk
 - **Kepuasan Hubungan Interpersonal**: Menggambarkan bagaimana tingkat kepuasan sosial berpengaruh terhadap retensi karyawan.
 
 Dashboard ini memberikan wawasan mengenai attrition karyawan dan faktor-faktor yang mempengaruhinya.  
-Akses langsung: [Klik di sini]([https://contoh-dashboard.com](https://public.tableau.com/views/SubmissionPertamaMenyelesaikanPermasalahanHumanResources/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+Akses langsung: [Klik di sini](https://public.tableau.com/views/SubmissionPertamaMenyelesaikanPermasalahanHumanResources/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Conclusion
 
