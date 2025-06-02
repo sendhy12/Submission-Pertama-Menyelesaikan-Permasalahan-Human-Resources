@@ -1,4 +1,4 @@
-# Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
+# Proyek Pertama: Menyelesaikan Permasalahan Human Resources
 
 ## Business Understanding
 
@@ -28,6 +28,8 @@ Dalam proyek ini, beberapa cakupan utama meliputi:
 ### Persiapan
 
 Sumber data: [Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/blob/main/employee/employee_data.csv)
+
+<img src="streamlit.png" alt="alt text" width="whatever" height="whatever">
 
 Setup Environment
 
@@ -73,6 +75,8 @@ Jika Anda menggunakan **Laragon** (Windows) sebagai local web development suite,
 Pastikan file CSV berada di direktori kerja yang sama dengan `prediction.py` atau sesuaikan path-nya di dalam kode jika berbeda lokasi.
 
 ## Business Dashboard
+
+<img src="sendhyma-dahsboard.png" alt="alt text" width="whatever" height="whatever">
 
 Dashboard bisnis ini dirancang untuk memberikan analisis mendalam mengenai tingkat attrition atau perputaran karyawan dalam perusahaan. Dengan visualisasi yang jelas dan informatif, dashboard ini membantu manajemen dalam mengidentifikasi pola, faktor penyebab, dan strategi yang dapat diterapkan untuk meningkatkan retensi karyawan.
 
