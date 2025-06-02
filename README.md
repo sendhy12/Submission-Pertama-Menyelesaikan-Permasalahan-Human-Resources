@@ -2,9 +2,13 @@
 
 ## Business Understanding
 
-Jaya Jaya Maju adalah perusahaan multinasional yang telah beroperasi sejak tahun 2000 dan memiliki lebih dari 1000 karyawan yang tersebar di seluruh negeri. Sebagai perusahaan yang berkembang pesat, Jaya Jaya Maju menghadapi tantangan dalam **pengelolaan karyawan**, yang berdampak langsung pada **attrition rate** yang tinggi, yaitu lebih dari **10%**.  
+Jaya Jaya Maju adalah perusahaan multinasional yang telah beroperasi sejak tahun 2000 dan memiliki lebih dari 1000 karyawan yang tersebar di seluruh penjuru negeri. Dalam perjalanannya selama lebih dari dua dekade, perusahaan ini telah berkembang pesat di berbagai sektor bisnis. Namun, seiring dengan pertumbuhannya, tantangan dalam pengelolaan sumber daya manusia juga semakin kompleks.
 
-Untuk mengatasi masalah ini, manajer departemen HR ingin memahami **faktor-faktor utama yang mempengaruhi attrition** agar perusahaan dapat mengambil langkah-langkah strategis untuk meningkatkan **retensi karyawan** dan mengurangi turnover.  
+Salah satu permasalahan utama yang saat ini dihadapi adalah **tingginya tingkat attrition (employee turnover)** yang telah melebihi angka **10%**. Tingginya attrition rate ini dikhawatirkan akan berdampak pada **produktivitas**, **stabilitas tim**, serta **efisiensi operasional** secara keseluruhan. Terlebih lagi, proses rekrutmen dan pelatihan karyawan baru memerlukan biaya dan waktu yang tidak sedikit, yang tentu berpengaruh pada kinerja jangka panjang perusahaan.
+
+Manajer departemen Human Resources (HR) menyadari bahwa untuk menghadapi tantangan ini diperlukan pendekatan berbasis data. Oleh karena itu, mereka ingin **mengidentifikasi berbagai faktor yang mempengaruhi keputusan karyawan untuk keluar dari perusahaan**, seperti tingkat kepuasan kerja, kompensasi, peluang promosi, beban kerja, hubungan dengan atasan, dan lainnya.
+
+Selain analisis faktor, pihak manajemen juga membutuhkan sebuah **business dashboard interaktif** yang dapat membantu mereka memantau indikator-indikator terkait attrition secara real-time. Dashboard ini diharapkan dapat menjadi alat bantu strategis dalam pengambilan keputusan yang lebih tepat dan berbasis bukti (evidence-based decision making) guna meningkatkan **retensi karyawan** dan menciptakan lingkungan kerja yang lebih sehat dan produktif.
 
 ### Permasalahan Bisnis
 
@@ -25,32 +29,48 @@ Dalam proyek ini, beberapa cakupan utama meliputi:
 
 Sumber data: [Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/blob/main/employee/employee_data.csv)
 
-Setup environment:
+Setup Environment
 
-Jika Anda menggunakan **Laragon** (Windows) sebagai local web development suite, maka berikut adalah langkah-langkah menjalankan aplikasi Streamlit:
+Jika Anda menggunakan **Laragon** (Windows) sebagai local web development suite, maka berikut adalah langkah-langkah menjalankan aplikasi **Streamlit** secara lokal:
 
-1. **Buka Terminal di Laragon** → `Menu > Terminal`
+1. **Buka Terminal di Laragon**
+   → Melalui menu: `Menu > Terminal`
 
-2. **Aktifkan Virtual Environment (opsional, jika dibuat):**
+2. **Aktifkan Virtual Environment (opsional, jika telah dibuat):**
 
    ```bash
    venv\Scripts\activate
    ```
 
-3. **Install dependensi dari `requirements.txt`:**
+3. **Install dependensi dari file `requirements.txt`:**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Jalankan aplikasi Streamlit:**
+4. **Pastikan file yang diperlukan telah tersedia.**
+   Sebagai contoh, Anda sudah menyiapkan file bernama:
+
+   ```
+   df_unlabeled_tanpa_hasil_prediksi.csv
+   ```
+
+   File ini kemungkinan berisi data karyawan yang belum diprediksi status attrition-nya dan akan digunakan oleh aplikasi Streamlit untuk proses inferensi atau visualisasi.
+
+5. **Jalankan aplikasi Streamlit:**
 
    ```bash
    streamlit run prediction.py
    ```
 
-5. **Akses aplikasi di browser:**
-   Biasanya tersedia di `http://localhost:8501`
+6. **Akses aplikasi di browser:**
+   Secara default, aplikasi akan tersedia di:
+
+   ```
+   http://localhost:8501
+   ```
+
+Pastikan file CSV berada di direktori kerja yang sama dengan `prediction.py` atau sesuaikan path-nya di dalam kode jika berbeda lokasi.
 
 ## Business Dashboard
 
