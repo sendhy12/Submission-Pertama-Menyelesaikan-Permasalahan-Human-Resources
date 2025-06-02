@@ -23,7 +23,7 @@ Dalam proyek ini, beberapa cakupan utama meliputi:
 
 ### Persiapan
 
-Sumber data: ....
+Sumber data: [Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/blob/main/employee/employee_data.csv)
 
 Setup environment:
 
@@ -46,7 +46,7 @@ Jika Anda menggunakan **Laragon** (Windows) sebagai local web development suite,
 4. **Jalankan aplikasi Streamlit:**
 
    ```bash
-   streamlit run app.py
+   streamlit run prediction.py
    ```
 
 5. **Akses aplikasi di browser:**
@@ -75,7 +75,7 @@ Berdasarkan hasil **feature importance** dari model **RandomForestClassifier(ran
 
 Kesimpulannya, strategi retensi karyawan perlu mempertimbangkan aspek **keuangan, keseimbangan kerja, serta faktor pengalaman dan stabilitas** dalam pekerjaan.
 
-### Rekomendasi Action Items (Optional)
+### Rekomendasi Action Items
 
 Untuk mengurangi tingkat attrition dan meningkatkan retensi karyawan, berikut beberapa langkah yang dapat diambil perusahaan:
 
